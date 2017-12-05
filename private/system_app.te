@@ -107,6 +107,9 @@ allow system_app keystore:keystore_key {
     user_changed
 };
 
+# selinux access
+allow system_app selinuxfs:file r_file_perms;
+
 # settings app reads /proc/version
 allow system_app {
   proc_version
