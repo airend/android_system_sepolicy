@@ -16,6 +16,7 @@
     mediaprovider_tmpfs
     netd_stable_secret_prop
     package_native_service
+    sudaemon
     sysfs_fs_ext4_features
     system_net_netd_hwservice
     thermal_service
